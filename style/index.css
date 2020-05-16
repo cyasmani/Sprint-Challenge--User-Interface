@@ -28,6 +28,89 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+@media(max-width:500px){
+
+    body{
+
+        width:500px;
+    }
+
+    .container{
+
+        width:500px;
+
+        
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+
+    .nav a{
+        font-size:5px;
+    }
+    .highway{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin:5rem;
+  
+    }
+    .text-container{
+        display:flex;
+        flex-direction: column;
+        
+        
+    }
+
+    .text-container p{
+
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    
+    }
+
+    .boxes {
+
+        display:flex;
+        flex-direction: column;
+        align-content: center;
+    
+    }
+   
+
+  
+    .highway{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bottom-content{
+
+        display:flex;
+        flex-direction: column;
+        padding-left: 10rem;
+
+    }
+
+    .bottom-content .text-container p{
+
+        font-size: 1rem;
+
+
+    }
+
+
+
+}
 body {
 	line-height: 1;
 }
@@ -56,6 +139,22 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+.nav {
+
+    display: flex;
+    flex-direction: wrap;
+    
+}
+
+
+.highway img{
+
+    padding-left: 7rem;
+    margin-bottom: 1rem;
+}
+
+
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -69,6 +168,30 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.nav a {
+
+    border: 2.5rem solid white;
+    color:black;
+    text-decoration: none;
+    font-size: 1rem;
+
+}
+
+.nav img{
+    margin-top: 1rem;
+    padding-left: 2.7rem;
+    height:3rem;
+
+}
+
+.highway img{
+    display:flex;
+    justify-content: flex-start;
+    height: 10.5rem;
+    width: 62.6rem;
+    padding-right:4.8rem;
 }
 
 .top-content {
@@ -111,6 +234,58 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box{
+
+    background: teal;
+}
+
+.middle-content .boxes .box + div {
+
+    background:gold;
+}
+
+.middle-content .boxes .box + div + div{
+
+    background:cadetblue;
+}
+
+.middle-content .boxes .box + div + div + div{
+
+    background:coral;
+}
+
+.middle-content .boxes .box + div + div + div + div{
+
+    background:crimson;
+}
+
+.middle-content .boxes .box + div + div + div + div + div{
+
+    background:forestgreen;
+}
+
+.middle-content .boxes .box + div + div + div + div + div + div{
+
+    background:darkorchid;
+}
+
+.middle-content .boxes .box + div + div + div + div + div + div + div{
+
+    background:hotpink;
+}
+
+.middle-content .boxes .box + div + div + div + div + div + div + div + div {
+
+    background:indigo;
+}
+
+.middle-content .boxes .box + div + div + div + div + div + div + div + div + div {
+
+    background:dodgerblue;
+}
+
+
 
 .bottom-content {
     display: flex;

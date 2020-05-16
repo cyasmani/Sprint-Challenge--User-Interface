@@ -1,0 +1,19 @@
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+Semantic HTML helps makes your code readable and maintable by adding extra elements that help organize your code.
+
+What are the 4 areas of the box model?
+
+Margin, content, padding, border
+
+While using flexbox, what axis does the following property work on: align-items: center? cross axis
+
+
+
+Explain why git is valuable to a team of developers.
+
+git prevents you from losing your code, allows you to easily have multiple versions of your code, allows other people to collaberate and review your code by pushing to github. 
+
+Define mobile-first design in your own words.
+
+mobile-first design is a plan of action in which you will work on how the webpage will display in 500px screens and below. For this you use max-width.  It is very important since nowadays mostly everyone is on their cellphone as opposed to a desktop or laptop computer. 
